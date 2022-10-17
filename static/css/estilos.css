@@ -1,0 +1,30 @@
+#btnSingUp {
+
+    vertical-align: top;
+    box-shadow: rgba(250, 116, 54, 0.24);
+}
+
+.img {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.imgA1 {
+    position: absolute;
+    z-index: 1;
+  }
+  .imgA2 {
+    position: absolute;
+    z-index:-1;
+    margin-top: 220px;
+    margin-left:5px ;
+  }  
+
+
+
+
+@font-face {
+    font-family: Volkhov-bold;
+    src: url(../fonts/volkhov/Volkhov-Bold.ttf);
+}
